@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: student main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1999.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/student main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files\Microsoft Visual Studio 6.0\project\student info manage\student main.cpp"
+"D:\Program Files\Microsoft Visual Studio 6.0\project\student info manage\student save.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1999.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP199A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/student main.pdb" /debug /machine:I386 /out:"Debug/student main.exe" /pdbtype:sept 
+".\Debug\stu_tool.obj"
+".\Debug\student build.obj"
+".\Debug\student information.obj"
+".\Debug\student main.obj"
+".\Debug\student modification.obj"
+".\Debug\student save.obj"
+".\Debug\student search.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP199A.tmp"
+<h3>Output Window</h3>
+Compiling...
+student main.cpp
+student save.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/student main.bsc"  ".\Debug\stu_tool.sbr" ".\Debug\student build.sbr" ".\Debug\student information.sbr" ".\Debug\student main.sbr" ".\Debug\student modification.sbr" ".\Debug\student save.sbr" ".\Debug\student search.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+student main.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

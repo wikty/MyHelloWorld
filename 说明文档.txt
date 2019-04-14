@@ -1,0 +1,29 @@
+//主菜单下的选择函数
+1，buil_class()
+2，modification()
+3，information()
+4，sear_menu()
+5，程序出口处
+//每个分支结束后刷新屏幕并返回主菜单
+-----buil_class()
+        |_(内用)show()
+        |_(内用)modif_()
+	|_(stu_tool.h)save()
+	|_(stu_tool.h)destroy()
+	|_	
+
+------modification()
+	|_!modif_menu()
+	|_!add()
+	|_!cut()
+	|_!mod_o()
+	|_!mod_c()
+	|_(stu_tool.h)copy()
+	|_(stu_tool.h)save()
+------information()
+	|_(stu_tool.h)copy()
+	|_(stu_tool.h)creat_class_info()
+	|_(stu_tool.h)destroy()
+------sear_menu()
+	|_!search()
+
